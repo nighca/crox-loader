@@ -1,0 +1,27 @@
+{
+  "name": "crox-loader",
+  "version": "1.0.0",
+  "description": "crox loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nighca/crox-loader.git"
+  },
+  "keywords": [
+    "crox-p",
+    "webpack",
+    "loader"
+  ],
+  "author": "nighca@live.cn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nighca/crox-loader/issues"
+  },
+  "homepage": "https://github.com/nighca/crox-loader",
+  "dependencies": {
+    "crox-p": "^0.0.2"
+  }
+}
