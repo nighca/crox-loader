@@ -1,6 +1,6 @@
 {
   "name": "crox-loader",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "crox loader for webpack",
   "main": "index.js",
   "scripts": {
