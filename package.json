@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/nighca/crox-loader",
   "dependencies": {
-    "crox-p": "^0.0.2"
+    "crox-p": "^0.0.4"
   }
 }
