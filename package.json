@@ -1,6 +1,6 @@
 {
   "name": "crox-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "crox loader for webpack",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/nighca/crox-loader",
   "dependencies": {
-    "crox-p": "^0.0.4"
+    "crox-p": "^0.0.5"
   }
 }
