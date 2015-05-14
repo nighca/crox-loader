@@ -7,7 +7,7 @@ var fs = require('fs');
 var path = require('path');
 var Crox = require('crox-p');
 
-var includeReg = /\{\{\s*include\s+[\"\']?([^\s\"\']*)\s*[\"\']?(.*)\}\}/gm;
+var includeReg = /\{\{\s*include[\s\n\r]+[\"\']?([^\s\"\']*)\s*[\"\']?([^(\}\})]*)\}\}/gm;
 
 var precompile = function (root, tmpl, stack, handler) {
     return tmpl.replace(includeReg, function(includeStmt, included, other) {
