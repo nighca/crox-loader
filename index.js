@@ -21,7 +21,7 @@ var precompile = function (root, tmpl, stack, handler) {
             handler(tplPath);
 
             var content = fs.readFileSync(tplPath).toString();
-            var result = precompile(tplPath, content, stack);
+            var result = precompile(tplPath, content, stack, handler);
 
             stack.pop();
             return [
